@@ -1,0 +1,64 @@
+body {
+  background-color: #F5F5F5;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+header > nav > ul > div > li {
+  list-style: none;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+footer > nav > ul > li {
+  display: inline;
+}
+
+.nav-link {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+
+.about {
+  width: 200px;
+  margin-left: 200px;
+  background-color: #336699;
+}
+
+.contact {
+  width: 250px;
+  margin-left: 30px;
+  background-color: #666699;
+  font-weight: 700;
+}
+
+.portfolio {
+  width: 250px;
+  margin-left: 150px;
+  background-color: #24248f;
+  font-weight: 100;
+}
+
+.blog {
+  width: 200px;
+  background-color: #000066;
+  font-weight: 900;
+}
+
+#logo {
+  font-family: sans-serif;
+  text-align: right;
+  padding-right: 10%;
+  color: grey;
+  height: 50px;
+  background-color: none;
+  border-bottom: solid 1px #ffe657;
+  text-transform: uppercase;
+}
